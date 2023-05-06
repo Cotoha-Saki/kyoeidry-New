@@ -176,7 +176,6 @@
     scroll-behavior: smooth;
   }
   
-  
   body {
     background: #ffdede;
   }
@@ -367,7 +366,6 @@
     display: flex;
     animation: zoomIn 1.5s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
     top: 100px;
-    
   }
   
   .time {
@@ -377,7 +375,7 @@
   .news .news_list {
     margin: 0 -40%;
     overflow-y: scroll;
-    height: 250px;
+    height:250px;
   }
   
   .news_item {
@@ -387,7 +385,7 @@
   .news .news_list .news_list_item {
     padding: 25px 0;
     border-bottom: 3px solid #fd7171;
-    background-color: rgb(255, 255, 255,0.55);
+    background-color: rgb(255, 255, 255);
   }
   
   .news .news_list .news_list_item:first-child {
