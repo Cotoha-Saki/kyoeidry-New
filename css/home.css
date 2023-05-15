@@ -246,10 +246,6 @@ html{
     text-decoration: none; /* aタグ（リンクの下線を消す） テキストデコレーション*/
   }
 
-  .banner-url {
-    color: white;
-  }
-
   .PageTop .PageTop-a {
   position: fixed;
   bottom: 35px;
@@ -568,6 +564,10 @@ html{
     color: black;
   }
 
+  .banner-url {
+    color: white;
+  }
+
   /*========= レイアウトのためのCSS ===============*/
 
   #wrapper{
@@ -578,7 +578,7 @@ html{
     align-items: center;
     overflow: hidden;
     position: absolute;
-    bottom: -870px;
+    bottom: -1400px;
 }
 
 /*========= waveを描画するエリア設定 ===============*/
@@ -588,6 +588,18 @@ html{
     bottom: 0px;
     left:0;
     width: 100%;
+  }
+
+  .PR img {
+    width: 700px;
+  }
+
+  .PR {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    column-gap: 350px;
+    top: 500px;
   }
 
 }
