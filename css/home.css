@@ -442,7 +442,6 @@ html{
   }
   
   .news .news_list {
-    margin: 0 -40%;
     overflow-y: scroll;
     height:300px;
   }
@@ -500,6 +499,11 @@ html{
     transform: rotate(45deg);
     position: absolute;
     bottom: 2px;
+  }
+
+   .news_list {
+     width: 900px;
+     word-wrap: normal;
   }
   
   .time {
