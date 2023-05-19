@@ -1,2 +1,2 @@
 # kyoeidry
-テスト用ページ：https://tanakakanata-prg.github.io/kyoeidry/
+テスト用ページ：https://kotoha-saki.github.io/kyoeidry/
