@@ -322,7 +322,7 @@ html{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(255, 0, 0) 50%);
     background-position: 0 0;
     background-size: 200% auto;
-    transition: .3s;
+    transition: .5s;
   }
   
   .header-list {
@@ -588,10 +588,36 @@ html{
 
   .PR-1 {
     margin-left: 100px;
+    overflow: hidden;
+    cursor: pointer;
+  
   }
 
   .PR-2 {
     margin-right: 100px;
+    overflow: hidden;
+    cursor: pointer;
   }
 
+  .PR .PR-1 img{
+    width: 100%;
+    transition-duration: 0.5s;
+  }
+
+  .PR .PR-2 img{
+    width: 100%;
+    transition-duration: 0.5s;
+  }
+
+  .PR .PR-1 img{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+  }
+
+  .PR .PR-2 img{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+  }
+  
+  
 }
