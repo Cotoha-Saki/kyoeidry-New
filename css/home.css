@@ -457,7 +457,7 @@ html{
   }
   
   .news .news_list .news_list_item:first-child {
-    border-top: 3px solid #fb7070;
+    border-top: 3px solid #fb6f6f;
   }
   .news .news_list .news_list_item a {
     position: relative;
